@@ -281,3 +281,23 @@ h2:active::before {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+/* Styles de base pour les écrans plus larges */
+body {
+  font-size: 16px;
+}
+
+/* Styles pour les écrans de taille moyenne (tablette) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Styles pour les écrans plus petits (smartphones) */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
